@@ -1,5 +1,6 @@
 const convertButton = document.querySelector(".convert-button")
 const selectCurrency = document.querySelector(".select-convert")
+const selectCurrencyToConvert = document.querySelector(".select-currency-convert")
 
 
 
@@ -45,8 +46,12 @@ function convertValues() {
         }).format(inputCurrency / realToday)
     }
 
-
-
+    if (selectCurrencyToConvert.value == "dolar") {
+        currencyValueToConvert.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "USD"
+        }).format(inputCurrency * realToday)
+    }
 
 
 
