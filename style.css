@@ -8,8 +8,7 @@
 }
 
 body {
-    background-color: #8A51FC;
-    height: 80%;
+    background-color:#f3ab05;
 
 }
 
@@ -17,7 +16,7 @@ main {
     width: 375px;
     padding: 44px 24px 23px;
     border-radius: 20px;
-    background: #F4F4F4;
+    background: #1f1e1e42;
     margin: 0px auto;
 
 }
@@ -112,4 +111,17 @@ section {
     font-weight: 700;
     font-size: 20px;
 
+}
+
+@media screen  and (max-width: 768px) {
+    main {
+        width: 90%;
+        height: auto;
+    }
+
+    body{
+        height: 100%;
+        width: auto;
+    }
+    
 }

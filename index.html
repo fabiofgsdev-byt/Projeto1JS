@@ -13,13 +13,17 @@
 </head>
 
 <body>
-    <img src="./assets/logo.gif" alt="Logo do projeto" class="logo">
+    <img src="./assets/imagem.gif" alt="Logo do projeto" class="logo">
 
     <main>
         <label>
             coverter <b> de </b>
             <select class="select-currency-convert">
                 <option value="real">R$ Real brasileiro</option>
+                <option value="dolar">US$ Dolar americano</option>
+                <option value="euro"> € Euro</option>
+                <option value="real">R$ Real brasileiro</option>
+                <option value="libra"> £ Libra</option>
             </select>
         </label>
 
@@ -42,14 +46,14 @@
 
         <section>
             <div class="currency-box">
-                <img src="./assets/real.png" alt="moeda a ser convertida">
-                <p class="currency">Real</p>
+                <img class="img-currency" src="./assets/real.png" alt="moeda a ser convertida">
+                <p class="currency" id="currency-convert">Real</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
 
             <img class="seta" src="./assets/Vector.svg" alt="seta de conversão">
 
-         
+
             <div class="currency-box">
                 <img class="currency-img" src="./assets/dolar.png" alt="moeda a ser convertida">
                 <p class="currency" id="currency-name">Dolar</p>
