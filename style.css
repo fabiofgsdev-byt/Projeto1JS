@@ -14,6 +14,7 @@ body {
 
 main {
     width: 375px;
+    border: 2px solid #06000e;
     padding: 44px 24px 23px;
     border-radius: 20px;
     background: #1f1e1e42;
@@ -122,6 +123,10 @@ section {
     body{
         height: 100%;
         width: auto;
+    }
+
+    button{
+        width: 280px;
     }
     
 }
